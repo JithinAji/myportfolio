@@ -1,0 +1,146 @@
+.jumbotron{
+    background-image: url(images/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    max-height: 400px;
+    background-color: rgb(153, 226,101);
+}
+
+
+.jumbo-text{
+    padding-right: 20px;
+}
+
+.jumbo-text p{
+    font-size: 1.2rem;
+}
+
+.jumbo-text img{
+    height: 220px;
+    width: 320px;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+}
+
+.navbar-brand a{
+    color: black;
+}
+
+.border-4{
+    border-width: 4px !important;
+}
+
+#body-details{
+    margin-left: 400px;
+    margin-right: 20px;
+    width: auto;
+    background-color: white;
+}
+
+#body-details p{
+    font-size: 1.3rem;
+}
+
+#body-rest{
+    font-size: 1.3rem;
+    padding-top: 50px;
+}
+
+p{
+    line-height: 2;
+}
+
+#blog-links{
+    max-width: 500px;
+}
+
+#how_i_work{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#how_i_work p{
+    margin: 0;
+    color: black;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 1.3rem;
+}
+
+
+#how_i_work img{
+    float: right;
+    height: 200px;
+    width: 25%;
+    position: relative;
+    margin-top: 0;
+}
+
+.far .fa-hand-peace{
+    size: 1.5rem;
+}
+
+.blink{
+    color: black;
+}
+
+#dt{
+    padding-top: 150px;
+}
+
+#display_talent{
+    padding-top: 25px;
+    color: black;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 750px){
+    .jumbo-text{
+        padding-top: 110px;
+        margin: auto auto;
+    }
+
+    .jumbotron{
+        background-image: url(images/jumbo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
+    }    
+    .jumbo-text img{
+        height: auto;
+        width: 100%;
+        margin-top: 1.2rem;
+    }
+    #body-details{
+        margin-left: 5px;
+        margin-right:5px;
+        width: auto;
+    }
+
+    #body-details{
+        padding-top: 220px;
+        background-color: white;
+    }
+
+    #how_i_work img{
+        float: none;
+        height: auto;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #display_talent{
+        padding-top: 0;
+        margin: auto auto;
+        text-align: center;
+    }
+
+    #dt{
+        padding-top: 0%;
+    }
+    
+}
+
+
