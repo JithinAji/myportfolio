@@ -69,6 +69,11 @@ p{
     font-size: 1.3rem;
 }
 
+#mainimg{
+    width: fit-content;
+    margin-top: 4%;
+}
+
 
 #how_i_work img{
     float: right;
@@ -99,7 +104,7 @@ p{
 
 @media screen and (max-width: 750px){
     .jumbo-text{
-        padding-top: 110px;
+        padding-top: 120px;
         margin: auto auto;
     }
 
@@ -111,8 +116,10 @@ p{
     }    
     .jumbo-text img{
         height: auto;
-        width: 100%;
+        width: 50%;
         margin-top: 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     #body-details{
         margin-left: 5px;
@@ -121,7 +128,7 @@ p{
     }
 
     #body-details{
-        padding-top: 220px;
+        padding-top: 300px;
         background-color: white;
     }
 
@@ -142,5 +149,8 @@ p{
     }
     
 }
+
+
+
 
 
