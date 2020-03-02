@@ -118,6 +118,7 @@ p{
         height: 200px;
         width: 200px;
         margin-top: 1.2rem;
+        float: left;
     }
     #body-details{
         margin-left: 5px;
