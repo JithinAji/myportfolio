@@ -115,10 +115,11 @@ p{
         background-color: white;
     }    
     .jumbo-text img{
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 50%;
         margin-top: 1.2rem;
-        float: left;
+        margin-left: auto;
+        margin-right: auto;
     }
     #body-details{
         margin-left: 5px;
@@ -148,8 +149,5 @@ p{
     }
     
 }
-
-
-
 
 
