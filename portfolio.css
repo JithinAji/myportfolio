@@ -115,8 +115,9 @@ p{
         background-color: white;
     }    
     .jumbo-text img{
-        height: 150px;
-        width: fit-content;
+        width: auto ;
+        max-width: 100% ;
+        height: auto ;;
         margin-top: 1.2rem;
     }
     #body-details{
