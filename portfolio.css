@@ -118,6 +118,10 @@ p{
         height: auto;
         width: auto;
         margin-top: 1.2rem;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
     }
     #body-details{
         margin-left: 5px;
