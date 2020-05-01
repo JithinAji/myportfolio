@@ -35,7 +35,7 @@
 
 #body-details{
     margin-left: 400px;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     width: auto;
     background-color: white;
 }
@@ -103,7 +103,7 @@ p{
 }
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 560px){
     .jumbo-text{
         padding-top: 120px;
         margin: auto auto;
@@ -132,6 +132,10 @@ p{
         background-color: white;
     }
 
+    #body-details p{
+        width: 100% !important;
+    }
+
     #how_i_work img{
         float: none;
         height: auto;
@@ -142,6 +146,10 @@ p{
         padding-top: 0;
         margin: auto auto;
         text-align: center;
+    }
+
+    #how_i_work p{
+        width: 100% !important;
     }
 
     #dt{
