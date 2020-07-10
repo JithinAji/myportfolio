@@ -102,6 +102,10 @@ p{
     font-size: 2rem;
 }
 
+.highlight{
+    font-size: 2rem;
+}
+
 
 @media screen and (max-width: 560px){
     .jumbo-text{
