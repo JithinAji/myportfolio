@@ -1,165 +1,154 @@
-.jumbotron{
+.jumbotron {
+  background-image: url(images/jumbo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  max-height: 400px;
+  background-color: rgb(153, 226, 101);
+}
+
+.jumbo-text {
+  padding-right: 20px;
+}
+
+.jumbo-text p {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-brand a {
+  color: black;
+}
+
+.border-4 {
+  border-width: 4px !important;
+}
+
+#body-details {
+}
+
+#body-details p {
+  font-size: 1.2rem;
+  padding-right: 5%;
+}
+
+#body-rest {
+  font-size: 1.2rem;
+  padding-top: 50px;
+}
+
+#mainimg {
+  width: 80%;
+  height: 70%;
+}
+
+p {
+  line-height: 2;
+}
+
+#blog-links {
+  max-width: 500px;
+}
+
+#how_i_work {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#how_i_work p {
+  margin: 0;
+  color: black;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+}
+
+#mainimg {
+  margin-top: 4%;
+}
+
+#how_i_work img {
+  float: right;
+  height: 200px;
+  width: 25%;
+  position: relative;
+  margin-top: 0;
+}
+
+.far .fa-hand-peace {
+  size: 1.5rem;
+}
+
+.blink {
+  color: black;
+}
+
+#dt {
+  padding-top: 150px;
+}
+
+#display_talent {
+  padding-top: 25px;
+  color: black;
+  font-size: 2rem;
+}
+
+.highlight {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 560px) {
+  .jumbo-text {
+    padding-top: 120px;
+    margin: auto auto;
+  }
+
+  .jumbotron {
     background-image: url(images/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: white;
-    max-height: 400px;
-    background-color: rgb(153, 226,101);
-}
-
-
-.jumbo-text{
-    padding-right: 20px;
-}
-
-.jumbo-text p{
-    font-size: 1.2rem;
-}
-
-.jumbo-text img{
-    height: 220px;
-    width: 320px;
-}
-
-.navbar-brand{
-    font-size: 1.5rem;
-}
-
-.navbar-brand a{
-    color: black;
-}
-
-.border-4{
-    border-width: 4px !important;
-}
-
-#body-details{
-    margin-left: 400px;
-    /*margin-right: 20px;*/
+  }
+  .jumbo-text img {
     width: auto;
-    background-color: white;
-}
+    max-width: 100%;
+    height: 60%;
+    margin-top: 1.8rem;
+  }
+  #body-details {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+  }
 
-#body-details p{
-    font-size: 1.2rem;
-    padding-right: 10%;
-}
-
-#body-rest{
-    font-size: 1.2rem;
-    padding-top: 50px;
-}
-
-p{
-    line-height: 2;
-}
-
-#blog-links{
-    max-width: 500px;
-}
-
-#how_i_work{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#how_i_work p{
-    margin: 0;
-    color: black;
-    background: rgba(255, 255, 255, 0.9);
-    font-size: 1.2rem;
-}
-
-#mainimg{
-    width: fit-content;
-    margin-top: 4%;
-}
-
-
-#how_i_work img{
-    float: right;
-    height: 200px;
-    width: 25%;
-    position: relative;
-    margin-top: 0;
-}
-
-.far .fa-hand-peace{
-    size: 1.5rem;
-}
-
-.blink{
-    color: black;
-}
-
-#dt{
-    padding-top: 150px;
-}
-
-#display_talent{
+  #body-details {
     padding-top: 25px;
-    color: black;
-    font-size: 2rem;
+    background-color: white;
+  }
+
+  #body-details p {
+    width: 100% !important;
+  }
+
+  #how_i_work img {
+    float: none;
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  #display_talent {
+    padding-top: 0;
+    margin: auto auto;
+    text-align: center;
+  }
+
+  #how_i_work p {
+    width: 100% !important;
+  }
+
+  #dt {
+    padding-top: 0%;
+  }
 }
-
-.highlight{
-    font-size: 2rem;
-}
-
-
-@media screen and (max-width: 560px){
-    .jumbo-text{
-        padding-top: 120px;
-        margin: auto auto;
-    }
-
-    .jumbotron{
-        background-image: url(images/jumbo.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: white;
-    }    
-    .jumbo-text img{
-        width: auto ;
-        max-width: 100% ;
-        height: 60%;
-        margin-top: 1.8rem;
-    }
-    #body-details{
-        margin-left: 5px;
-        margin-right:5px;
-        width: auto;
-    }
-
-    #body-details{
-        padding-top: 550px;
-        background-color: white;
-    }
-
-    #body-details p{
-        width: 100% !important;
-    }
-
-    #how_i_work img{
-        float: none;
-        height: auto;
-        width: 100%;
-        padding-bottom: 20px;
-    }
-    #display_talent{
-        padding-top: 0;
-        margin: auto auto;
-        text-align: center;
-    }
-
-    #how_i_work p{
-        width: 100% !important;
-    }
-
-    #dt{
-        padding-top: 0%;
-    }
-    
-}
-
-
