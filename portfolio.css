@@ -28,25 +28,29 @@
 }
 
 #body-details {
+  margin-top: 5%;
 }
 
 #body-details p {
-  font-size: 1.2rem;
-  padding-right: 5%;
+  /* font-size: 1.2rem; */
+  /* padding-right: 5%; */
+  /* margin-top: %; */
 }
 
 #body-rest {
   font-size: 1.2rem;
-  padding-top: 50px;
+  margin-top: 5%;
 }
 
 #mainimg {
   width: 80%;
-  height: 70%;
+  height: 80%;
+  object-fit: contain;
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
+  font-size: 1.2rem;
 }
 
 #blog-links {
@@ -54,8 +58,7 @@ p {
 }
 
 #how_i_work {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 5%;
 }
 
 #how_i_work p {
@@ -65,8 +68,16 @@ p {
   font-size: 1.2rem;
 }
 
+#what_i_did {
+  margin-top: 5%;
+}
+
 #mainimg {
   margin-top: 4%;
+}
+
+#footer {
+  margin-top: 5%;
 }
 
 #how_i_work img {
@@ -79,10 +90,6 @@ p {
 
 .far .fa-hand-peace {
   size: 1.5rem;
-}
-
-.blink {
-  color: black;
 }
 
 #dt {
@@ -121,6 +128,11 @@ p {
     margin-left: 5px;
     margin-right: 5px;
     width: auto;
+  }
+
+  #mainimg {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #body-details {
